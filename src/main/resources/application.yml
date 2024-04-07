@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: auth
+  data:
+    mongodb:
+      database: entrypoint
+      uri: mongodb://entrypoint:ENTRYPOINT2024@localhost:27017/entrypoint
+
+  security:
+    jwt:
+      key: 42307a4b050ab087c2dfc723dff831d47bad985029ac12c84a2c628da30de7af
